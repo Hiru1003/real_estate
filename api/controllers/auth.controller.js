@@ -1,6 +1,9 @@
-export const register = (req, res) => {
-    console.log(req.body)
+import bcrypt from "bcrypt";
 
+export const register = (req, res) => {
+    const { username, email, password } = req.body;
+    //has password
+    //create new password
 }
 export const login = (req, res) => {
     
