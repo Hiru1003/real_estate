@@ -21,4 +21,3 @@ app.listen(8000, () => {
 
 
 //console-ninja node --watch app.js
-//console-ninja node --env-file .env  --watch app.js
